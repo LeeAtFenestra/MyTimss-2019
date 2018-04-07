@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WesAdmin Text="WesAdmin Section">
+  <OverView Text="This section allows Administrators to handle some of the tasks that are required when 
+                    using the Membership and Profile classes.  
+                    Each tab provides unique functionality from managing creation and deletion of users to managing 
+                    user's roles and profiles.  From a user's perspective this section allows them to view and update 
+                    thier own information such as password and profile.  An administrator can manipulate all the user's information.
+                    In the Configure Users section there are examples of programmatically handling administrative
+                    tasks as well as dynamically producing controls.  The MultiView, the GridView and DetailsView, the XML control 
+                    and the ChangePassword web server controls are demonstrated as well as Web Parts." />
+  <Pages>
+    <Page Text="About FAB">
+      <Feature Text="FAB version information." />
+    </Page>
+    <Page Text="Configure Users">
+      <Feature Text="Add, edit, and delete users and roles." />
+    </Page>
+    <Page Text="Health Monitoring Log">
+      <Feature Text="View both SQL and text logs that are automatically created during the lifetime of the application.  These events are defined in the web.config." />
+    </Page>
+    <Page Text="Update Profile">
+      <Feature Text="Edit the profiles of all users.  Profiles contains personal information such as first and last name 
+               and can be configured in the web.config and the CustomProfile.vb class." />
+    </Page>    
+    <Page Text="Change My Password">
+      <Feature Text="On this page you can change your password." />
+    </Page>
+  </Pages>
+  <Links>
+    <Link Text="Using Parameters with Data Source Controls"
+          URL="http://msdn2.microsoft.com/en-us/library/xt50s8kz.aspx"/>
+  </Links>
+</WesAdmin>

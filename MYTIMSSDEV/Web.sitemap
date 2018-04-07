@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="MyTIMSS"  description="">
+        <siteMapNode url="~/TIMSSSCS2015/default.aspx" title="TIMSS SCS 2015"  description="" roles="admin,SCSWebsite" />
+        <siteMapNode url="~/TIMSSEFILE2015/default.aspx" title="TIMSS E-File 2015"  description="admin,EfileWebsite" />
+    </siteMapNode>
+</siteMap>

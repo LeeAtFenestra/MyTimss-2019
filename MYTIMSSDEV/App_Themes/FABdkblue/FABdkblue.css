@@ -1,0 +1,751 @@
+﻿.DefaultFontSection
+{
+    color: #00008B;
+    font-family: Arial;
+    font-size: 18px
+}
+.DefaultFont
+{
+    color:#9595BF;
+    font-family:  Times New Roman;
+    font-weight : bold   
+}
+
+body {
+	margin: 0px;
+	background: url(../FABdkblue/images/background_main_blue.jpg) repeat-x left top;
+	font: 0.7em Verdana,Arial,Helvetica,sans-serif;
+	background-color:#F2F2FA;
+}
+
+.tableStyle
+{
+    border-collapse: collapse; 
+}   
+#login a:link, #login a:visited {
+	color: #FFFFFF;
+}
+#title h1 a:link, #title h1 a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#reportresults h2 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+a:link {
+	color: #396EAA;
+}
+a:visited {
+	color: #396EAA;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+/*begin creating the tabs */
+.menu {
+	margin-left:0px;
+	font-size: 11px;
+	right: 100%; /* to position them to the left of their containing block */
+    width: auto;
+	background: url(../FABdkblue/images/tab_bg.gif) repeat-x; 
+	font-weight: bold;
+}
+/* set tab1 as top level container table, then target TDs inside*/
+.menuItem td {
+	color: #FFFFFF;
+	height:24px;
+	background: url(../FABdkblue/images/tab_dim_dkblue.gif) no-repeat;
+	width: 98px;
+	text-align: center;
+	margin-left:0px;
+	
+}
+.navmenu
+{
+    float: left;
+    width: auto;
+    margin: 0;
+    padding:none;
+    font-weight:bold;
+    font-size:11px;
+    /*background:889AB0;*/
+    color:white;
+    font-family:Tahoma
+}
+.navmenuItem a:link, .navmenuItem a:visited
+{
+   color :#FFFFFF 
+}
+.navmenuItem a:hover
+{
+    color :#FFE77B;
+    text-decoration:underline 
+}
+.navmenuSelectedItem td
+{
+   background-color:#6464BC
+}
+.navmenuItem td
+{
+    display:inline;
+    width:auto;
+    padding: 0.5em;
+    border-width: 1px;
+    border-right:1px solid #009;
+    text-decoration: none;
+    /*background: #889AB0;*/ 
+}
+
+/* make current tab gray,set the background-color also in case images are not on*/
+.menuSelectedItem td {
+	background: url(../FABdkblue/images/tab_dkblue1.gif) repeat #919191;	
+}
+/* make link and visited the same look,set the background-color also in case images are not on*/
+.menuItem a:link, .menuItem a:visited, .menuPopupItem a:link, .menuPopupItem a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* make hover by changing vertical position of background to -22px (the tab_dim2.gif is 44px high) */
+.menuItem a:hover {
+	text-decoration: underline;
+	color:#FFFC75	
+}
+
+/* make drop down menu container style */
+.menuPopup {
+	background: url(../FABdkblue/images/background_drop_menu_dkblueShade.gif) repeat #8C9FB4;
+	border: 1px solid #666666;
+	border-bottom: none;
+	color: #ffffff;
+}
+
+/* make drop down menu item style */
+.menuPopupItem {
+	color: #ffffff;
+	border-bottom: 1px solid #666666;
+	padding: 3px;
+}
+
+/* define the main layout divs */
+#header {
+	margin-right: auto;
+	height: 60px;
+	width: 100%;
+}
+#title {
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 28px;
+	float: left;
+	height: 20px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#login {
+	padding-top: 25px;
+	padding-right: 28px;
+	float: right;
+	clear: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10px;
+	height: 28px;
+	top: 0px;
+	text-align: right;
+}
+/* make crumbs after making new nav */
+#breadcrumb {
+	padding-top: 4px;
+	padding-left: 10px;
+	/* Tab dkblue Hex no.is #8A8AB9*/
+	background: #9191BD;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	height: 20px;
+}
+#body {
+	padding: 0px 0px 0px 0px;
+	background: #F0F0F6 url(../FABdkblue/images/background_body_dkblue.gif) repeat-x left top;
+	height: 100%;	
+}
+
+/* Mozilla needs min-height:512px (IE will ignore this min-height) */
+#reportresults, #projectadministration, #timesheet, #addhours, #projectreport, #resourcereport {
+	height:80%;
+	width: 89%; margin-left: auto; margin-right: auto;
+}
+#addhours {
+	padding: 10px;
+	border: 1px solid #000000;
+	float: left;
+	background: #DAE1E7 url(../common/images/background_addhours.jpg) repeat-x left top;
+	color: #666666;
+	font-family: Tahoma,Verdana,Helvetica,Helvetica-Narrow,sans-serif;
+	width: 195px;
+	position: relative;
+}
+#adminedit 
+{
+	height:80%;
+	width: 89%; margin-left: auto; margin-right: auto;
+	padding: 10px;
+	border: 1px solid #000000;
+	background: #FFFFFF;
+	color: #666666;
+	font-family: Tahoma,Verdana,Helvetica,Helvetica-Narrow,sans-serif;
+}
+
+#catlist {
+	width: 20%;
+}
+/* define other elements inside the main layout divs */
+#title h1 {
+	display: inline;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+/* can be removed if no images in breadcrumb area */
+#breadcrumb img {
+	border: none;
+	padding-right: 3px;
+	vertical-align: middle;
+}
+/* all the legend tags use this same style */
+legend {
+	padding: 0px 4px;
+	margin: 0px 0px 7px 0px;
+	/*color: #7070B5;*/
+	color: #7070B5;
+	font-weight: bold;
+	font-size: 1.3em;
+	vertical-align: middle;
+}
+/* define sizes of the username field */
+.username {
+	font-size: 0.9em;
+	width: 150px;
+}
+/* all the fieldset tags use this same style */
+fieldset {
+	margin-bottom: 0px;
+	padding: 0px 12px 12px 12px;
+	display: block;
+	height: 100%;
+
+}
+/* create hover effect for calendar icons */
+#addhours a:link img, #addhours a:visited img, #resourcereport a:link img, #resourcereport a:visited img {
+	padding: 2px;
+	border: 1px solid #DFE4EA;
+	background: #DFE4EA;
+}
+/* Put the admin edit calendar icon on a white background */
+/*#adminedit a:link img, #adminedit a:visited img {
+	padding: 2px;
+	border: 1px solid #FFFFFF;
+	background: #FFFFFF;
+	width: 100%;
+	height:100%;
+}
+*/
+/* add fade background and padding to all table rows */
+.row1 {
+	padding: 3px;
+	background: url(../common/images/timesheet_data_bg.gif) repeat-x;
+	background: #F9FAFB;
+}
+.row1 img {
+	border: none;
+	text-align: center;
+}
+
+
+/* zero margin on all forms */
+form {
+	margin: 0px;
+}
+/* define the pop up calendar style */
+#calbg {
+	background: #ABBDD3 url(../common/images/background_calendar.gif) repeat-x;
+	height: 1000px;
+}
+#calcontent {
+	margin: 5px;
+	padding: 5px 4px 9px 4px;
+	border: 1px solid #000000;
+	background: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+}
+#month {
+	margin-bottom: 6px;
+	font-size: 9px;
+	width: 80px;
+}
+#year {
+	margin-bottom: 6px;
+	font-size: 9px;
+	width: 50px;
+}
+#calcontent table td a:link, #calcontent table td a:visited {
+	padding: 0px 2px 3px;
+	display: block;
+}
+#calcontent table td a:hover, #calcontent table td a:active {
+	display: block;
+	background: #FFCC00;
+}
+#calcontent table td a:active {
+	display: block;
+	color: #FFFFFF;
+	background: #009900;
+}
+/* begin classes */
+input, select, textarea {
+	margin-bottom: 8px;
+}
+/* make the cal icon appear in line with the forms and text */
+#addhours img, #resourcereport img, #adminedit img {
+	border: 0px;
+	vertical-align: text-bottom;
+}
+/* make hours input field more prominent */
+#addhours .hours {
+	padding-top: 1px;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 35px;
+	height: 20px;
+	text-align: center;
+}
+.projectlist, .resourcelist {
+	border: 1px solid #00FF00;
+	margin-bottom: 4px;
+	width: 200px;
+}
+/* condense in mark up to be '.button' */
+.submit, .reset, .delete, .create, .add, .copy {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 0.9em;
+	height: 28px;
+}
+/* make submit button larger */
+.submit {
+	width: 108px;
+}
+/* define the look of the data tables (using colgroup in the source) 
+colcatlist1 and colcatlist1 are generic names since I'm not sure 
+what kind of date goes into these cells. More appropriate names can
+be added for these */
+.coldescription, .colcatlist1, .colcatlist2 {
+	text-align: left;
+}
+.colday, .colhours, .coledit, .coldelete {
+	width: 5%;
+}
+.colproject, .colcategory {
+	width: 15%;
+}
+.colhours {
+	font-weight: bold;
+}
+.coldescription {
+	width: 50%;
+}
+/* define pop up calendar look */
+.calmonday, .caltuesday, .calwednesday, .calthursday, .calfriday, .calsaturday, .calsunday {
+	text-align: center;
+}
+.calcurrentmonth {
+	background: #EEEEEE;
+}
+.calcurrentday {
+	border: 1px solid #000000;
+}
+.calothermonth a:link, .calothermonth a:visited {
+	color: #999999;
+}
+.calweekend {
+	background: #E2E2E2;
+}
+/* create section heading container to separate long forms */
+.formsection {
+	padding: 10px;
+	margin-top: 15px;
+	background: #D6DDE9 url(../common/images/background_formsection.gif) repeat-x center;
+	font-weight: bold;
+	text-align: center;
+}
+/* sometimes we hide elements from display in visual browsers (but leave them in the source for non visual browsers and for accessibility). I've also hidden the table in the admin_create_projects.html page */
+.hidden {
+	visibility: hidden;
+}
+.none {
+	display: none;
+}
+
+img {
+	border: none;
+}
+.leftblock
+{
+    border: 1px solid #DBDB79;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: url(../FABdkblue/images/Default.gif);
+    vertical-align: top;
+}
+.rightblock
+{
+    border: 1px solid #DBDB79;
+    padding: 15px;
+    margin-bottom: 10px;
+    background:url(../FABdkblue/images/Default.gif) ;
+    /*position: relative;*/
+    width:446px;
+    color: #483D8B
+}
+
+/*Footer background color */
+.TableFooterBackground
+{
+    background: #F2F2FA
+}
+
+.gridItem
+{
+    BORDER-RIGHT: #B8C0F2 1px solid;
+    BORDER-TOP: #B8C0F2 1px solid;
+    BORDER-LEFT: #B8C0F2 1px solid;
+    BORDER-BOTTOM: #B8C0F2 1px solid
+}
+TD.gridSubHeading
+{
+    BORDER-TOP: #B8C0F2 1px solid
+}
+TD.gridSubHeadingColumn
+{
+    BORDER-TOP: #B8C0F2 1px solid;
+    FONT-WEIGHT: bold
+}
+.gridSimple
+{
+    BORDER-RIGHT: #B8C0F2 1px solid;
+    BORDER-TOP: #B8C0F2 1px solid;
+    BORDER-LEFT: #B8C0F2 1px solid;
+    BORDER-BOTTOM: #B8C0F2 1px solid
+}
+.gridSimpleAltItem
+{
+    BACKGROUND-COLOR: #F5F5F5;
+}
+
+.webFormSimple
+{
+    BORDER-RIGHT: #B0B0E5 1px solid;
+    BORDER-TOP: #B0B0E5 1px solid;
+    BORDER-LEFT: #B0B0E5 1px solid;
+    BORDER-BOTTOM: #B0B0E5 1px solid
+}
+
+.webFormHeaderSmall
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    /*BACKGROUND-COLOR: #B0B0E5;*/
+    BACKGROUND-COLOR:#FFFFFF;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none;
+	height: 20px;
+	margin: 4px 4px 4px  4px
+}
+.webFormSubHeader
+{
+    COLOR: white;
+    BACKGROUND-COLOR: #FFFFFF;
+    TEXT-ALIGN:justify;
+    TEXT-DECORATION: none;
+	
+   
+}
+.webFormSimpleItem
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left
+}
+.webFormLabel
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: #F5F5F5;
+    TEXT-ALIGN: left
+}
+
+.grid
+{
+    BORDER-RIGHT: #D5D5E5 1px solid;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: #D5D5E5 1px solid;
+    BORDER-BOTTOM: #D5D5E5 1px solid;
+    BORDER-COLLAPSE:collapse;
+}
+.gridHeader
+{
+    BORDER-RIGHT: #ACACE5 1px solid;
+    BORDER-TOP: #ACACE5 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: #ACACE5 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #ACACE5 1px solid;
+    BACKGROUND-COLOR: #9595C4;
+    TEXT-DECORATION: none;
+}
+.gridFooter
+{
+    BORDER-RIGHT: #9595C4 1px solid;
+    BORDER-TOP: #9595C4 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: #9595C4 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #9595C4 1px solid;
+    BACKGROUND-COLOR: Navy;
+    TEXT-DECORATION: none;
+}
+.bordertop
+{
+	BORDER-TOP: #74acd1 1px solid;
+}
+.PassWordBackGroundPicture
+{
+    
+   background: url(../FABdkblue/images/background_body_dkbluePassword.gif) repeat-x left top;
+}
+.button3
+{
+    BORDER-RIGHT: #000000 2px solid;
+    BORDER-TOP: #000000 2px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #000000 1px solid;
+    WIDTH: 120px;
+    COLOR: #000000;
+    BORDER-BOTTOM: #000000 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #B0B0E5;
+    TEXT-ALIGN: center;
+    cursor:pointer;
+}
+.ChangePasswordHeader
+{
+    BACKGROUND-COLOR: #BCA690;
+    TEXT-ALIGN: center;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 7pt;
+    WIDTH: 900px;
+    height:25px
+
+}
+.button4
+{
+    BORDER-RIGHT:  #00000 5px solid;
+    BORDER-TOP: #00000 2px solid;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #00000 2px solid;
+    WIDTH: 120px;
+    CURSOR: hand;
+    COLOR: white;
+    BORDER-BOTTOM: #00000 2px solid;
+    FONT-FAMILY:  Arial Black;
+    BACKGROUND-COLOR: #8484D8;
+    TEXT-ALIGN: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+        
+}
+.hrcolor
+{
+    color:#ffffff
+}
+HR
+{
+    COLOR: #7070B5;
+    HEIGHT: 2px;
+    BACKGROUND-COLOR: #7070B5
+}
+.bdyText
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: verdana,helvetica,tahoma
+}
+.loginbox {
+	BORDER-RIGHT: #f1f5e1 1px solid; 
+	BORDER-TOP: #f1f5e1 1px solid; 
+	FONT-SIZE: 7pt; 
+	BORDER-LEFT: #f1f5e1 1px solid; 
+	COLOR: black; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: #f1f5e1 1px solid; 
+	FONT-FAMILY: Verdana;
+	background-color:#D0D0E2
+	
+}
+.loginPageHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+    COLOR: white;
+    FONT-FAMILY: verdana,helvetica,tahoma;
+    BACKGROUND-COLOR: #a0c6e5;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none;
+}
+h1{ display: inline; font-size: 14px; }
+td.bannerbg{ background: #2E5CB8; }
+.sectiontitle {
+	color: #FFFFFF;
+	padding: 5px;
+	font-size:15px;
+	font-weight:bold;
+	border-bottom: 3px solid #FFFFFF;
+	font-family: Tahoma, Verdana, Helvetica-Narrow, Helvetica, sans-serif;
+	background-color: #9191BD
+}
+td.toolbar{
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	background: #F4A460  /*999999*/;
+	font: 11px Tahoma, Verdana, Helvetica-Narrow, Helvetica, sans-serif;
+}
+
+.dashedline
+{
+    border-bottom: 1px dashed #DBCE6A;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    clear:right;
+}
+.HeaderStyle
+{
+    background-color: Navy;
+    color: White;
+    font-weight: bold;
+}
+.FooterStyle
+{
+    background-color: #a33;
+    color: White;
+    text-align: right;
+}
+.AlternatingRowStyle
+{
+    background-color: InfoBackground;
+    color: Navy;
+}
+.RowStyle
+{
+    color:Yellow;
+}
+.loginbutton3
+{
+   
+    BORDER-RIGHT: #669cb7 1px solid;
+    BORDER-TOP: #669cb7 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #669cb7 1px solid;
+    WIDTH: 100px;
+    COLOR: white;
+    BORDER-BOTTOM: #669cb7 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #669cb7;
+    TEXT-ALIGN: center;
+}
+.TreeViewStyle
+{
+   border:2px dotted #dedede;  
+    /*background-color:#EBE4F2;*/ 
+    margin:0 0 .5em 0; 
+    padding:2em;
+    vertical-align :top  
+} 
+.NavMenuBackGround
+{
+    background-color:#9898C1
+}
+.MasterLogin
+{
+   FONT-FAMILY:Tahoma;
+   color: #FFFFFF;
+   /*TEXT-TRANSFORM: uppercase;*/
+}
+.toolbar
+{
+   font-size: 12px;
+   font-family: Verdana;
+   padding: 2px       
+   filter: 
+   progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ffffff,endColorStr=#999999);
+}
+.toolbar_table
+{
+ background: #COCOCO
+ padding: 0px;
+ width:auto;
+ border-right:.1em 
+ filter: 
+ progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ffffff,endColorStr=#999999);
+ }
+ .toolbar_table a:visited
+  {
+     color :#000000;
+     font-family:Arial Narrow ;
+     font-weight: bold;
+     text-decoration:underline;      
+}  
+.toolbar_table a:hover
+ {
+    color :#FFFFFF;            
+}    
+.CollapsePanelStyle
+{
+    background-color :#E6E6F7
+}    
+#tdbottom
+{  
+    border-top : .0em ;
+    border-left : .0em  ;
+    border-bottom :.00em ;
+    padding-left:.00em ;
+    padding-right:.00em ;
+    padding-top:.00em;
+    padding-bottom:.00em  ;
+    border-collapse:collapse;
+}
+#tdtop
+{  
+    border-top : .0em ;
+    border-left : .0em  ;
+    border-bottom :.00em ;
+    padding-left:.00em ;
+    padding-right:.00em ;
+    padding-bottom:.00em  ;
+    padding-top:.00em;
+    border-collapse:collapse;
+}

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13BD8EB9-A806-44C9-BE5F-FB34EE1E36A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Westat.PISA.Library</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Westat.PISA.Library.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Westat.PISA.Library.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\BLL\AuditTrail.vb" />
+    <Compile Include="Admin\BLL\BaseAdmin.vb" />
+    <Compile Include="Admin\BLL\DownloadCategory.vb" />
+    <Compile Include="Admin\BLL\DownloadDocument.vb" />
+    <Compile Include="Admin\BLL\EmailTemplate.vb" />
+    <Compile Include="Admin\BLL\MySchoolRegistration.vb" />
+    <Compile Include="Admin\BLL\PISAProject.vb" />
+    <Compile Include="Admin\BLL\PISAEmail.vb" />
+    <Compile Include="Admin\BLL\PISARole.vb" />
+    <Compile Include="Admin\BLL\PISAUser.vb" />
+    <Compile Include="Admin\BLL\State.vb" />
+    <Compile Include="Admin\BLL\UserDownload.vb" />
+    <Compile Include="Admin\BLL\UserLogin.vb" />
+    <Compile Include="Admin\DAL\DataAccessAdmin.vb" />
+    <Compile Include="Admin\DAL\AdminAdaptor.vb" />
+    <Compile Include="Admin\Enum\AdminCodes.vb" />
+    <Compile Include="BizObject.vb" />
+    <Compile Include="ConfigSection.vb" />
+    <Compile Include="DataAccess.vb" />
+    <Compile Include="EFile\BLL\BaseEFile.vb" />
+    <Compile Include="EFile\BLL\EFile.vb" />
+    <Compile Include="EFile\BLL\File.vb" />
+    <Compile Include="EFile\BLL\StatusCode.vb" />
+    <Compile Include="EFile\BLL\StudentRecord.vb" />
+    <Compile Include="EFile\DAL\DataAccessEFile.vb" />
+    <Compile Include="EFile\DAL\EFileAdaptor.vb" />
+    <Compile Include="EFile\Enum\EFileCodes.vb" />
+    <Compile Include="Globals.vb" />
+    <Compile Include="Helpers.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MySchool\BLL\BaseMySchool.vb" />
+    <Compile Include="MySchool\BLL\MSContent.vb" />
+    <Compile Include="MySchool\BLL\MSDocument.vb" />
+    <Compile Include="MySchool\BLL\MSPage.vb" />
+    <Compile Include="MySchool\BLL\MSSection.vb" />
+    <Compile Include="MySchool\BLL\SDCFFieldSet.vb" />
+    <Compile Include="MySchool\DAL\DataAccessMySchool.vb" />
+    <Compile Include="MySchool\DAL\MySchoolAdaptor.vb" />
+    <Compile Include="MySchool\Enum\MySchoolCodes.vb" />
+    <Compile Include="SCS\BLL\BaseSCS.vb" />
+    <Compile Include="SCS\BLL\District.vb" />
+    <Compile Include="SCS\BLL\Personnel.vb" />
+    <Compile Include="SCS\BLL\School.vb" />
+    <Compile Include="SCS\BLL\SLDesignation.vb" />
+    <Compile Include="SCS\BLL\Staff.vb" />
+    <Compile Include="SCS\BLL\StaffAddress.vb" />
+    <Compile Include="SCS\DAL\DataAccessSCS.vb" />
+    <Compile Include="SCS\DAL\SCSAdaptor.vb" />
+    <Compile Include="SCS\Enum\SCSCode.vb" />
+    <Compile Include="SiteProvider.vb" />
+    <Compile Include="ValidationException.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

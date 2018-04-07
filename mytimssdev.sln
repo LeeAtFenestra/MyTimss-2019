@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "BLL\BLL.vbproj", "{0E40AD94-D901-48C8-8533-892D0E68C065}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{A31B29A3-9B6D-4B37-BDEC-2D5459D685F2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HL", "HL\HL.vbproj", "{C48BBAFB-3F67-425D-8980-37E1E2D70B42}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TIMSSTableProfileProvider", "TIMSSTableProfileProvider\TIMSSTableProfileProvider.vbproj", "{24BD882F-1D7C-4B8B-85B1-9C8EAC502C40}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "mytimssdev", "mytimssdev", "{B6944770-A727-47E4-A9CF-C9EBECE922FC}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/", AAAAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = ".."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0E40AD94-D901-48C8-8533-892D0E68C065}|Westat.TIMSS.BLL.dll;{A31B29A3-9B6D-4B37-BDEC-2D5459D685F2}|Westat.TIMSS.DAL.dll;{C48BBAFB-3F67-425D-8980-37E1E2D70B42}|Westat.TIMSS.HL.dll;{24BD882F-1D7C-4B8B-85B1-9C8EAC502C40}|Westat.TIMSS.TIMSSTableProfileProvider.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/mytimssdev"
+		Debug.AspNetCompiler.PhysicalPath = "mytimssdev\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\mytimssdev\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/mytimssdev"
+		Release.AspNetCompiler.PhysicalPath = "mytimssdev\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\mytimssdev\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57216"
+		SlnRelativePath = "mytimssdev\"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnitTestsProject", "UnitTestsProject\UnitTestsProject.vbproj", "{DEF8B394-D063-47F0-B28B-3C01F6D559DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E40AD94-D901-48C8-8533-892D0E68C065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E40AD94-D901-48C8-8533-892D0E68C065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E40AD94-D901-48C8-8533-892D0E68C065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E40AD94-D901-48C8-8533-892D0E68C065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31B29A3-9B6D-4B37-BDEC-2D5459D685F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31B29A3-9B6D-4B37-BDEC-2D5459D685F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31B29A3-9B6D-4B37-BDEC-2D5459D685F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31B29A3-9B6D-4B37-BDEC-2D5459D685F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48BBAFB-3F67-425D-8980-37E1E2D70B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48BBAFB-3F67-425D-8980-37E1E2D70B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48BBAFB-3F67-425D-8980-37E1E2D70B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48BBAFB-3F67-425D-8980-37E1E2D70B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BD882F-1D7C-4B8B-85B1-9C8EAC502C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BD882F-1D7C-4B8B-85B1-9C8EAC502C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BD882F-1D7C-4B8B-85B1-9C8EAC502C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BD882F-1D7C-4B8B-85B1-9C8EAC502C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6944770-A727-47E4-A9CF-C9EBECE922FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6944770-A727-47E4-A9CF-C9EBECE922FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6944770-A727-47E4-A9CF-C9EBECE922FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6944770-A727-47E4-A9CF-C9EBECE922FC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DEF8B394-D063-47F0-B28B-3C01F6D559DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF8B394-D063-47F0-B28B-3C01F6D559DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF8B394-D063-47F0-B28B-3C01F6D559DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF8B394-D063-47F0-B28B-3C01F6D559DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BLL\\BLL.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = BLL\\
+		SccProjectUniqueName2 = DAL\\DAL.vbproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = DAL\\
+		SccProjectUniqueName3 = HL\\HL.vbproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = HL\\
+		SccProjectUniqueName4 = TIMSSTableProfileProvider\\TIMSSTableProfileProvider.vbproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = TIMSSTableProfileProvider\\
+		SccWebProject5 = true
+		SccProjectUniqueName5 = mytimssdev
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = mytimssdev\\
+		SccProjectEnlistmentChoice5 = 2
+		SccProjectUniqueName6 = UnitTestsProject\\UnitTestsProject.vbproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = UnitTestsProject\\
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,163 @@
+A {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana; FONT-VARIANT: normal; COLOR: #000080; FONT-STYLE: normal
+}
+.debug {
+	FONT-SIZE: 8pt; BORDER-TOP: #008000 1px dotted; FONT-FAMILY: Courier New; BORDER-RIGHT: #008000 1px dotted; BORDER-BOTTOM: #008000 1px dotted; COLOR: #008000; BORDER-LEFT: #008000 1px dotted; BACKGROUND-COLOR: #e3f2e3
+}
+A:hover {
+	COLOR: #0000ff
+}
+.smalllink {
+	FONT-SIZE: 8pt
+}
+.gradelink {
+	FONT-SIZE: 8pt; COLOR: #ce7b00
+}
+.smalllinkgreen {
+	FONT-SIZE: 8pt; COLOR: #10b289
+}
+.menu {
+	FONT-SIZE: 10pt; COLOR: #ffffff
+}
+.menusmall {
+	FONT-SIZE: 8pt; COLOR: #ffd393
+}
+.menusmall:hover {
+	COLOR: #ffcc66
+}
+.menu:hover {
+	COLOR: #ffcc66
+}
+.menuOn {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #ffcc66
+}
+.menuOn:hover {
+	COLOR: #ffcc66
+}
+BODY {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.whitelink {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; COLOR: #ffffff; FONT-STYLE: normal
+}
+.whitelink:hover {
+	COLOR: #cccff0
+}
+.siteborder {
+	BACKGROUND-COLOR: #123F75
+}
+.mailmerge {
+	FONT-SIZE: 10pt; BACKGROUND-COLOR: #ebebeb
+}
+.choicesborder {
+	COLOR: #ffffff; 
+}
+.choicesinner {
+	COLOR: #ffffff; 
+	BACKGROUND-COLOR: #7898c0
+}
+.hotcell {
+	FONT-SIZE: 10pt; COLOR: #3c419b; BACKGROUND-COLOR: #cccff0
+}
+.schoolon {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #3c419b; BACKGROUND-COLOR: #cccff0
+}
+.hotcellon {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #ebebeb; BACKGROUND-COLOR: #8094d8
+}
+.hotlink {
+	FONT-SIZE: 10pt; COLOR: #3c419b; TEXT-DECORATION: none
+}
+.hotlinkOn {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #ebebeb; TEXT-DECORATION: none
+}
+.hotcell2 {
+	FONT-SIZE: 10pt; COLOR: #ffffff; BACKGROUND-COLOR: #8094d8
+}
+.hotcell2on {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #3c419b; BACKGROUND-COLOR: #cccff0
+}
+.hotlink2 {
+	FONT-SIZE: 10pt; COLOR: #ebebeb; TEXT-DECORATION: none
+}
+.hotlink2on {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold; COLOR: #3c419b; TEXT-DECORATION: none
+}
+.cbo {
+	FONT-SIZE: 10pt; BACKGROUND-COLOR: #d2dbf2
+}
+.infocolor {
+	COLOR: #cc33ff
+}
+.infocolor2 {
+	COLOR: #ff0000
+}
+.fldheader {
+	BACKGROUND-COLOR: #e0e2f5
+}
+.fldheaderon {
+	BORDER-TOP: #3c419b 1px solid; BORDER-RIGHT: #3c419b 1px solid; BORDER-BOTTOM: #3c419b 1px solid; BORDER-LEFT: #3c419b 1px solid; BACKGROUND-COLOR: #d9e0f4
+}
+.alphbarlink {
+	FONT-SIZE: 10pt; COLOR: #008000
+}
+.alphbar {
+	FONT-SIZE: 8pt
+}
+.alphbaron {
+	BACKGROUND-COLOR: #d6ebd6
+}
+.alphbarlinkon {
+	FONT-SIZE: 10pt; COLOR: #000080
+}
+.fldheaderLink {
+	FONT-SIZE: 10pt; COLOR: #000080
+}
+.fldheaderLinkon {
+	FONT-SIZE: 10pt; COLOR: #000080; TEXT-DECORATION: none
+}
+.groupby {
+	FONT-SIZE: 10pt; BACKGROUND-COLOR: #d6ebd6
+}
+INPUT {
+	BORDER-TOP: #808080 1px solid; BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid; BORDER-LEFT: #808080 1px solid
+}
+.tbplaintext {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana; COLOR: #000000
+}
+.tbplaintext TH {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana; FONT-WEIGHT: bold; COLOR: #000000
+}
+.tbplaintext TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana; COLOR: #000000
+}
+.tbplaintextsmall {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana; COLOR: #000000
+}
+.tbplaintextsmall TH {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana; FONT-WEIGHT: bold; COLOR: #000000
+}
+.tbplaintextsmall TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana; COLOR: #000000
+}
+.mssiteborder {
+	BACKGROUND-COLOR: #2a3985
+}
+.checkboxoutline {
+	OUTLINE-WIDTH: 3px; OUTLINE-STYLE: solid; OUTLINE-COLOR: red
+}
+TABLE.sortable A.sortheader {
+	FONT-WEIGHT: bold; COLOR: #000066; TEXT-DECORATION: none
+}
+TABLE.sortable SPAN.sortarrow {
+	COLOR: black; TEXT-DECORATION: none
+}
+.DDCTPopUpBox {
+	OVERFLOW: auto; BORDER-TOP: navy 1px solid; BORDER-RIGHT: navy 1px solid; BORDER-BOTTOM: navy 1px solid; POSITION: absolute; BORDER-LEFT: navy 1px solid; DISPLAY: none; BACKGROUND-COLOR: navy
+}
+.SCSPopUpBox {
+	OVERFLOW: auto; BORDER-TOP: navy 1px solid; BORDER-RIGHT: navy 1px solid; BORDER-BOTTOM: navy 1px solid; POSITION: absolute; BORDER-LEFT: navy 1px solid; DISPLAY: none; BACKGROUND-COLOR: window
+}
+.ContentBox H5 {
+	DISPLAY: inline
+}

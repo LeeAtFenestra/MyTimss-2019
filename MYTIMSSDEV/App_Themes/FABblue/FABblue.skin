@@ -1,0 +1,138 @@
+<%-- Palette
+
+     #000000 = black
+     #FFFFFF = white
+
+     #EEEEEE = light grey
+     #CCCCCC = medium grey
+
+     #0000FF = blue
+     #000066 = navy
+     #696969 = charcoal
+     #585880 = charcoal w/ blue and purple tint
+     #E7E5DB = cream
+     #6464FE = (highlight color) - blue and purple tint
+     #F8F7F4 = (alternating rows)- very light brown     --%>
+
+<asp:Login runat="server" >
+    <LoginButtonStyle    Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderColor="#585880" BorderWidth="1pt" BackColor="#E7E5DB"></LoginButtonStyle>
+    <HyperLinkStyle        Font-Size=".9em" Font-Names="Verdana" font-underline="true" ForeColor="#585880" BackColor="transparent"></HyperLinkStyle>
+    <CheckBoxStyle         ForeColor="#000000" BorderColor="transparent" BackColor="transparent"></CheckBoxStyle>
+    <InstructionTextStyle  Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" font-italic="True" BackColor="transparent"></InstructionTextStyle>
+    <FailureTextStyle      Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BackColor="transparent" Font-Bold="True"></FailureTextStyle>
+    <TextBoxStyle          Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderWidth="1pt" BorderColor="transparent" BackColor="#FFFFFF"></TextBoxStyle>
+    <TitleTextStyle        Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt" CssClass= "loginPageHeader"></TitleTextStyle>
+    <LabelStyle            ForeColor="#000000" BackColor="transparent" Font-Size=".9em" Font-Names="Verdana"></LabelStyle>
+</asp:Login>
+<asp:Calendar runat="server" BorderStyle="solid" BorderColor="#E7E5DB" BorderWidth="1" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana">
+    <TodayDayStyle      BackColor="#F8F7F4" BorderWidth="1" BorderColor="#585880" ForeColor="#585880" />
+    <OtherMonthDayStyle BackColor="transparent" ForeColor="#CCCCCC" />
+    <SelectedDayStyle   ForeColor="#6464FE" BackColor="transparent" cssclass="theme_highlighted" />
+    <TitleStyle         Font-Bold="True"  BackColor="#CCCCCC" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt" CssClass= "loginPageHeader" />
+    <NextPrevStyle      Font-Bold="True"  ForeColor="#585880" BorderColor="transparent"  BackColor="transparent" />
+    <DayStyle                             ForeColor="#000000"   BorderColor="transparent" BackColor="transparent" />
+    <SelectorStyle      Font-Bold="True"  ForeColor="#696969" BackColor="#F8F7F4" />
+    <WeekendDayStyle    Font-Bold="False" ForeColor="#000000"   BackColor="transparent" />
+    <DayHeaderStyle     Font-Bold="True"  ForeColor="#585880" BackColor="Transparent" />
+</asp:Calendar>
+
+<asp:WebPartZone runat="server"  PartFrameType="TitleAndBorder"  DragHighlightColor="#6464FE"  ShowTitleIcons="True"  >
+    <PartStyle     CssClass= "loginBox" BackColor="#F8F7F4"></PartStyle> 
+    <FooterStyle   ForeColor="#585880" BackColor="#CCCCCC"></FooterStyle>
+    <HelpVerb      ImageURL="images/SmokeAndGlass_help.gif"     enabled="True"   visible="True"></HelpVerb>
+    <CloseVerb     ImageURL="images/SmokeAndGlass_close.gif"    enabled="True"   visible="True"></CloseVerb>
+    <RestoreVerb   ImageURL="images/SmokeAndGlass_restore.gif"  enabled="True"   visible="True"></RestoreVerb>
+    <MinimizeVerb  ImageURL="images/SmokeAndGlass_minimize.gif"  enabled="True"   visible="True"></MinimizeVerb>
+    <EditVerb      ImageURL="images/SmokeAndGlass_edit.gif"     enabled="True"  visible="True"></EditVerb>
+    <HeaderStyle   ForeColor="#FFFFFF" Font-Names="Verdana" BorderStyle="solid" BorderWidth="0" Font-Bold="true"  BorderColor="#E7E5DB"  CssClass= "loginPageHeader"></HeaderStyle>
+    <PartChromeStyle  ForeColor="#585880" Font-Names="Verdana" Font-Size=".9em" BorderColor="#44448A" BackColor="#F8F7F4"></PartChromeStyle>
+    <PartTitleStyle   cssclass="gridHeader"></PartTitleStyle>
+    <VerbStyle        ForeColor="#FFFFFF" Font-Names="Verdana" Font-Underline="False" Font-Size=".7em" BorderColor="#000066" BorderWidth="1pt" BackColor="#8383B6"></VerbStyle>
+    <SelectedPartChromeStyle BorderColor="#6464FE" Font-Size=".9em" Font-Names="Verdana"/>
+</asp:WebPartZone>
+
+<asp:CatalogZone runat="server"  PartFrameType="TitleAndBorder"  DragHighlightColor="#6464FE"  ShowTitleIcons="True" BorderStyle="Solid" BorderColor="Gray" BorderWidth="1pt" Font-Size=".9em" Font-Names="Verdana">
+    <PartChromeStyle      BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px"></PartChromeStyle>
+    <PartTitleStyle ForeColor="#585880" Font-Size=".9em" BorderColor="#000066" BackColor="#E7E5DB" cssclass="loginPageHeader"></PartTitleStyle>
+    <HeaderStyle     BorderStyle="solid" BorderWidth="1pt" BorderColor="#E7E5DB"  CssClass= "loginPageHeader"></HeaderStyle>
+    <FooterStyle    ForeColor="#585880" BackColor="#E7E5DB"></FooterStyle>
+    <PartStyle      ForeColor="#585880" BorderStyle="Solid" BorderColor="#585880" BorderWidth="1pt" BackColor="white"></PartStyle>
+    <VerbStyle    ForeColor="#585880" Font-Size=".9em" BorderColor="#000066" BorderWidth="1" BackColor="#F8F7F4"/>
+    <HeaderVerbStyle ForeColor="White" />
+</asp:CatalogZone>
+
+<asp:EditorZone runat="server"  PartFrameType="TitleAndBorder"  DragHighlightColor="Blue"  ShowTitleIcons="True" BorderStyle="solid"  BorderColor="Gray" BorderWidth="1pt" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana">
+    <PartChromeStyle  BorderColor="Gray" BorderStyle="Solid" BorderWidth="1px"></PartChromeStyle>
+    <PartTitleStyle ForeColor="#585880" Font-Bold="true"  Font-Size=".9em" BorderColor="#000066" BackColor="transparent" ></PartTitleStyle>
+    <PartStyle ForeColor="#585880" BorderStyle="none" BorderColor="#585880" BorderWidth="1pt" BackColor="white"></PartStyle>
+    <HeaderStyle  Font-Bold="true"  BorderStyle="Solid" BorderWidth="1pt" BorderColor="#E7E5DB"  CssClass= "loginPageHeader"></HeaderStyle>
+    <FooterStyle BackColor="#E7E5DB"></FooterStyle>
+    <HeaderVerbStyle ForeColor="White" />
+</asp:EditorZone>
+<asp:ConnectionsZone runat="server" BorderColor="Gray" BorderStyle="Solid" BorderWidth="1px"  ShowTitleIcons="True">
+    <PartChromeStyle  BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px"></PartChromeStyle>
+    <HeaderStyle   BorderStyle="Solid" BorderWidth="1pt" BorderColor="#E7E5DB" CssClass= "loginPageHeader" />
+    <HeaderVerbStyle ForeColor="White" />
+</asp:ConnectionsZone>
+<asp:appearanceeditorpart  runat="server" BorderColor="Gray" BorderStyle="None" BorderWidth="1px" CssClass= "loginBox">
+</asp:appearanceeditorpart>
+<asp:layouteditorpart runat="server"  BorderColor="Gray" BorderStyle="None" BorderWidth="1px" CssClass= "loginBox">
+</asp:layouteditorpart>
+<asp:GridView runat="server" ForeColor="#585880"  BorderStyle="solid" BorderColor="#E7E5DB" BorderWidth="2pt" Font-Size=".9em" Font-Names="Verdana" CellPadding="5" GridLines="both">
+    <AlternatingRowStyle Font-Bold="False" ForeColor="#585880" BackColor="#F8F7F4"></AlternatingRowStyle>
+    <FooterStyle       Font-Bold="False" ForeColor="#585880"  BackColor="#ddeeff"></FooterStyle>
+    <EditRowStyle      ForeColor="#585880" Font-Bold="True" BorderWidth="1pt" BorderStyle="Solid" cssclass="theme_highlighted"></EditRowStyle>
+    <HeaderStyle      Font-Bold="False" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt"  BackColor="#ddeeff"></HeaderStyle>
+    <RowStyle          Font-Bold="False" ForeColor="#585880" BackColor="#FFFFFF"></RowStyle>
+    <PagerStyle        Font-Bold="False" ForeColor="#585880" BackColor="#ddeeff"></PagerStyle>
+    <SelectedRowStyle  Font-Bold="False" ForeColor="#585880" BorderStyle="solid"  BorderWidth="2pt" BorderColor="585880" cssclass="theme_highlighted"></SelectedRowStyle>
+</asp:GridView>
+
+<asp:DetailsView runat="server" BorderStyle="solid" ForeColor="#585880" BorderColor="#E7E5DB" BorderWidth="2pt" Font-Size=".9em" Font-Names="Verdana" CellPadding="5" BackColor="#FFFFFF">
+    <EmptyDataRowStyle   Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BackColor="#F8F7F4"></EmptyDataRowStyle>
+    <PagerStyle          Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BorderWidth="1pt" BorderColor="#585880" BorderStyle="Solid" BackColor="#F8F7F4"></PagerStyle>
+    <EditRowStyle        font-size=".9em" Font-Names="Verdana" ForeColor="#585880" BackColor="#F8F7F4"></EditRowStyle>
+    <RowStyle            Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderColor="#FFFFFF" BackColor="#FFFFFF"></RowStyle>
+    <CommandRowStyle     Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderWidth="1pt" BorderStyle="Ridge" BorderColor="#FFFFFF" ></CommandRowStyle>
+    <InsertRowStyle      Font-Size=".9em" Font-Names="Verdana" BackColor="#F8F7F4" ForeColor="#585880"></InsertRowStyle>
+    <AlternatingRowStyle Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BackColor="#F8F7F4"></AlternatingRowStyle>
+    <HeaderStyle  BorderWidth="1px" BorderStyle="Solid" ForeColor="#585880" BorderColor="#CCCCCC" BackColor="#ddeeff"/>
+    
+</asp:DetailsView>
+
+<asp:CreateUserWizard runat="server" BorderStyle="Double" BorderColor="#E7E5DB" BorderWidth="2pt" BackColor="#F8F7F4" Font-Size=".9em" Font-Names="Verdana">
+    <HyperLinkStyle        Font-Size=".9em" Font-Names="Verdana" font-underline="true" ForeColor="#585880" BackColor="transparent"></HyperLinkStyle>
+    <InstructionTextStyle  Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" font-italic="True" BackColor="transparent"></InstructionTextStyle>
+    <ErrorMessageStyle      Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BackColor="transparent" Font-Bold="True"></ErrorMessageStyle>
+    <TextBoxStyle          Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderWidth="1pt" BorderColor="transparent" BackColor="#FFFFFF"></TextBoxStyle>
+    <TitleTextStyle        Font-Size=".9em" Font-Names="Verdana" Font-Bold="True" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt" ></TitleTextStyle>
+    <LabelStyle            ForeColor="#000000" BackColor="transparent" Font-Size=".9em" Font-Names="Verdana"></LabelStyle>
+    <CreateUserButtonStyle cssclass="button3"/>
+</asp:CreateUserWizard>
+<asp:FormView runat="server" BorderStyle="solid" ForeColor="#585880" BorderColor="#E7E5DB" BorderWidth="0" 
+Font-Size=".9em" Font-Names="Verdana" CellPadding="0" BackColor="#FFFFFF">
+    <EmptyDataRowStyle        Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BackColor="#F8F7F4"></EmptyDataRowStyle>
+    <PagerStyle          Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880"  BorderWidth="1pt" BorderColor="#585880" BorderStyle="Solid" BackColor="#E0FFFF"></PagerStyle>
+    <EditRowStyle        font-size=".9em" Font-Names="Verdana" ForeColor="#585880" BackColor="#F8F7F4"></EditRowStyle>
+    <RowStyle            Font-Size=".9em" Font-Names="Verdana" ForeColor="#585880" BorderColor="#FFFFFF"></RowStyle>
+    <InsertRowStyle      Font-Size=".9em" Font-Names="Verdana" BackColor="#F8F7F4" ForeColor="#585880"></InsertRowStyle>
+</asp:FormView>
+
+<asp:Wizard runat="server"  BackColor="#FFFBD6" BorderColor="#FFDFAD" BorderStyle="Solid" Font-Size=Medium>
+    <HeaderStyle  BackColor="#FFCC66" BorderColor="#FFFBD6" BorderStyle="Solid" BorderWidth="2px"
+            Font-Bold="True" Font-Size="1.0em" ForeColor="#990033" HorizontalAlign="Center" wrap=false ></HeaderStyle>
+    <SidebarStyle          ForeColor="#585880" Font-Size=".9em" cssclass="theme_fadeblue" BorderStyle="Solid" />
+    <SideBarButtonStyle    ForeColor="#000066" Font-Size=".9em" BackColor="transparent" BorderColor="#000066"  />
+    <StepStyle             Font-Size="0.9em" BorderWidth="0" HorizontalAlign="Left" Wrap="False"/>
+</asp:Wizard>
+<asp:Menu runat="server" SkinID="TopMenuOnly"
+    DynamicEnableDefaultPopOutImage="False"
+    MaximumDynamicDisplayLevels="2" Orientation="Horizontal" 
+    StaticBottomSeparatorImageUrl="~/Common/images/bgcolor.gif" 
+    StaticEnableDefaultPopOutImage="False" StaticDisplayLevels="2" 
+    StaticMenuItemStyle-ItemSpacing="5"
+    StaticHoverStyle-BackColor="#B0C4DE"
+    DynamicHoverStyle-BackColor="#B0C4DE"
+    >
+    <StaticMenuItemStyle ItemSpacing="5px" Font-Size="Smaller"/>
+</asp:Menu>

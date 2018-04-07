@@ -1,0 +1,1 @@
+MYTIMSSDEV for development has the static documents removed from 3 folders, since it consists mainly of 1.2gb of PDF files.  Most of these static files are labelled for 2015, so the assumption is that they will be updated at some point anyway. These documents and their folders are contained in the MYTIMSSDEV-Static-Documents.zip file.

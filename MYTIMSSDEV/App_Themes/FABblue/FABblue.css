@@ -1,0 +1,677 @@
+.DefaultFont
+{
+    color: #00008B;
+    font-family: Arial;
+    font-size: 12px
+}
+BODY
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Helvetica, Tahoma;
+    BACKGROUND-COLOR: #ffffff
+}
+A
+{
+    COLOR: #006699;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #000033;
+    TEXT-DECORATION: none
+}
+A.visited
+{
+    COLOR: #636e5a;
+    TEXT-DECORATION: none
+}
+
+.actionlink
+{
+    COLOR: #006699;
+    FONT-SIZE: 8pt;
+    font-family: Arial, Verdana, Tahoma;
+    TEXT-DECORATION: none
+}
+
+.Indent
+{
+    TEXT-INDENT: 20px
+}
+.datatable
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.dtspacer
+{
+    BACKGROUND-COLOR: #c0c0c0
+}
+.dtlabel
+{
+    BORDER-RIGHT: #c0c0c0 1px solid;
+    BORDER-TOP: #c0c0c0 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #c0c0c0 1px solid;
+    BORDER-BOTTOM: #c0c0c0 1px solid;
+    BACKGROUND-COLOR: #eeeeee
+}
+.rptTitle
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #000000 1px solid;
+    BACKGROUND-COLOR: #ce7b00
+}
+HR
+{
+    COLOR: #6699cc;
+    HEIGHT: 2px;
+    BACKGROUND-COLOR: #6699cc
+}
+.textbox
+{
+    BORDER-RIGHT: #6699cc 1px solid;
+    BORDER-TOP: #6699cc 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #6699cc 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #6699cc 1px solid;
+    TEXT-ALIGN: left
+}
+
+TD {
+	FONT-SIZE: 8pt; 
+	FONT-FAMILY: verdana,helvetica,tahoma
+}
+P
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: verdana,helvetica,tahoma
+}
+SELECT
+{
+    FONT-SIZE: 8pt
+}
+OPTION
+{
+    FONT-SIZE: 8pt
+}
+.bdyText
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: verdana,helvetica,tahoma
+}
+.bdyTextEM
+{
+    FONT-SIZE: 8pt;
+    COLOR: #6495ed;
+    FONT-FAMILY: verdana,helvetica,tahoma
+}
+.footer
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: verdana,helvetica,tahoma
+}
+.AltTableRow
+{
+    BACKGROUND-COLOR: #F5F5F5;
+}
+
+.borderbottom
+{
+	BORDER-BOTTOM: #74acd1 1px solid;
+}
+.borderright
+{
+	BORDER-RIGHT: #74acd1 1px solid;
+}
+
+.leftMenuCat A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #006699;
+    FONT-FAMILY: ms sans serif;
+    BACKGROUND-COLOR: #f5f5f5
+}
+.leftMenuSpacer
+{
+    BACKGROUND-COLOR: #74acd1
+}
+.leftMenuCat A
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: ms sans serif;
+    COLOR: black
+}
+.leftMenuCatOn A
+{
+    width: 150px; 
+    height:16px;
+    background-color:  #cce5f1;
+    padding:1px;
+    border-top:  #cce5f1 4px solid;
+    BORDER-BOTTOM:   #cce5f1 5px solid;
+    FONT-FAMILY: ms sans serif;
+    font-weight: bold;
+    COLOR: black;  
+    text-decoration: none; 
+}
+.leftMenuSubCat A
+{
+    FONT-SIZE: 8pt;
+    COLOR: #0560a6;
+    FONT-FAMILY:  ms sans serif;
+    TEXT-DECORATION: none;
+}
+.leftMenuSubCat A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #0560a6;
+    FONT-FAMILY: ms sans serif;
+    TEXT-DECORATION: none;
+}
+.leftMenuSubCatOn A
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: ms sans serif;
+    TEXT-DECORATION: none
+}
+.leftMenuSubCatOn A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #006699;
+    FONT-FAMILY: ms sans serif;
+    TEXT-DECORATION: none
+}
+.leftMenuSubTable
+{
+    BACKGROUND-COLOR: #f5f5f5
+}
+.leftMenuSubTableOn
+{
+    FONT-WEIGHT: bold;
+    BACKGROUND-COLOR: #cce5f1
+}
+.topMenuText
+{
+    FONT-WEIGHT: Normal;
+    FONT-SIZE: 8pt;
+    COLOR: #006699;
+    FONT-FAMILY: ms sans serif;
+    TEXT-DECORATION: none
+}
+.MenuText
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.topMenuText:hover
+{
+    TEXT-DECORATION: none
+}
+.topMenuTexton
+{
+    BORDER-RIGHT: 1px inset;
+    BORDER-TOP: 1px inset;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px inset;
+    COLOR: #000033;
+    BORDER-BOTTOM: 1px inset;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #ddeeff;
+    TEXT-DECORATION: none
+}
+.topMenubg
+{
+    /*BACKGROUND-IMAGE: url(../Common/images/bgcolor.gif);*/
+    HEIGHT: 24px
+}
+.topHeaderNoImage
+{ 
+    BACKGROUND-COLOR: #B0C4DE;
+    height:75px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5px;
+    FONT-FAMILY: Arial;
+    COLOR: #336699;
+    text-align: left
+}
+.topHeaderNoImageLabel
+{ 
+    font-size: large;
+    font-weight: bold;
+    FONT-FAMILY: Arial;
+    COLOR: #336699;
+}
+.tableBorder
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset;
+    BACKGROUND-COLOR: #ffffff
+}
+.loginbox
+{
+    BORDER-RIGHT: #a0c6e5 1px solid;
+    BORDER-TOP: #a0c6e5 1px solid;
+    FONT-SIZE: 7pt;
+    BORDER-LEFT: #a0c6e5 1px solid;
+    COLOR: black;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: #a0c6e5 1px solid;
+    FONT-FAMILY: Verdana
+}
+.loginPageHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+    COLOR: white;
+    FONT-FAMILY: verdana,helvetica,tahoma;
+    BACKGROUND-COLOR: #a0c6e5;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none;
+}
+.wsmsVersion
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: #e1ebf4;
+    TEXT-ALIGN: left
+}
+.apptitle
+{
+	FONT-SIZE: 7pt; 
+	FONT-FAMILY: verdana,helvetica,tahoma;
+	COLOR: white
+}
+.button
+{
+    BORDER-RIGHT: #669cb7 1px solid;
+    BORDER-TOP: #669cb7 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #669cb7 1px solid;
+    WIDTH: 50px;
+    CURSOR: hand;
+    COLOR: white;
+    BORDER-BOTTOM: #669cb7 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #669cb7;
+    TEXT-ALIGN: center;
+}
+.button2
+{
+    BORDER-RIGHT: #669cb7 1px solid;
+    BORDER-TOP: #669cb7 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #669cb7 1px solid;
+    WIDTH: 85px;
+    CURSOR: hand;
+    COLOR: white;
+    BORDER-BOTTOM: #669cb7 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #669cb7;
+    TEXT-ALIGN: center;
+}
+.button3
+{
+    BORDER-RIGHT: #669cb7 1px solid;
+    BORDER-TOP: #669cb7 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #669cb7 1px solid;
+    WIDTH: 100px;
+    COLOR: white;
+    BORDER-BOTTOM: #669cb7 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #669cb7;
+    TEXT-ALIGN: center;
+}
+.button4
+{
+    BORDER-RIGHT:  #669cb7 1px solid;
+    BORDER-TOP: #669cb7 1px solid;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: uppercase;
+    BORDER-LEFT: #669cb7 1px solid;
+    WIDTH: 120px;
+    CURSOR: hand;
+    COLOR: white;
+    BORDER-BOTTOM: #669cb7 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #669cb7;
+    TEXT-ALIGN: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+        
+}
+UNKNOWN
+{
+    FONT-SIZE: 1em
+}
+.txt2
+{
+    FONT-SIZE: 0.9em
+}
+.txt3
+{
+    FONT-SIZE: 0.8em
+}
+.txt4
+{
+    FONT-SIZE: 0.7em
+}
+.txt5
+{
+    FONT-SIZE: 0.6em
+}
+.txt1Bold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1em
+}
+.txt2Bold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.9em
+}
+.txt3Bold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.8em
+}
+.txt4Bold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.7em
+}
+.txt5Bold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 0.6em
+}
+.oddRowBGColor
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.evenRowBGColor
+{
+    BACKGROUND-COLOR: #f5f5f5
+}
+.reqMark
+{
+    COLOR: #ff0000
+}
+.gridItem
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: #e2e0e0 1px solid;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    BORDER-BOTTOM: #e2e0e0 1px solid
+}
+TD.gridSubHeading
+{
+    BORDER-TOP: #e2e0e0 1px solid
+}
+TD.gridSubHeadingColumn
+{
+    BORDER-TOP: #e2e0e0 1px solid;
+    FONT-WEIGHT: bold
+}
+.gridSimple
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: #e2e0e0 1px solid;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    BORDER-BOTTOM: #e2e0e0 1px solid
+}
+.gridSimpleHeader
+{
+    FONT-WEIGHT: bold;
+    COLOR: black;
+    BACKGROUND-COLOR: #f1f5e1;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+.gridSimpleItem
+{
+    BACKGROUND-COLOR: #F5F5F5;
+}
+.gridSimpleAltItem
+{
+    BACKGROUND-COLOR: #F5F5F5;
+}
+.gridSimpleEditItem
+{
+    BACKGROUND-COLOR: #FFF8DC;
+}
+.webFormSimple
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: #e2e0e0 1px solid;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    BORDER-BOTTOM: #e2e0e0 1px solid
+}
+.webFormSimple2
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: #e2e0e0 1px solid;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    BORDER-BOTTOM: #e2e0e0 1px solid;
+    BACKGROUND-COLOR: #F5F5F5;
+}
+.webFormSimpleHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 17px;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #6699c9;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+.webFormHeaderSmall
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #ddeeff;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none;
+	height: 20px;
+	margin: 10px 10px 10px  10px
+}
+.webFormSubHeader
+{
+    COLOR: black;
+    BACKGROUND-COLOR: #e1ebf4;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+.webFormSimpleItem
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left
+}
+.webFormLabel
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: #F5F5F5;
+    TEXT-ALIGN: left
+}
+.webFormAttribLabel
+{
+    VERTICAL-ALIGN: top;
+    BACKGROUND-COLOR: #F5F5F5;
+    COLOR: #4682b4;
+    TEXT-ALIGN: left
+}
+.grid
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    BORDER-BOTTOM: #e2e0e0 1px solid;
+    BORDER-COLLAPSE:collapse;
+}
+.gridHeader
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: #e2e0e0 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #e2e0e0 1px solid;
+    BACKGROUND-COLOR: #ddeeff;
+    TEXT-DECORATION: none;
+}
+.gridFooter
+{
+    BORDER-RIGHT: #e2e0e0 1px solid;
+    BORDER-TOP: #e2e0e0 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: #e2e0e0 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: #e2e0e00 1px solid;
+    BACKGROUND-COLOR: Navy;
+    TEXT-DECORATION: none;
+}
+.gridRow
+{  
+	Background-Color: #F7F6F3;
+	color: #333333;
+}
+.gridAltRow
+{  
+	Background-Color: White;
+	color: #284775;
+}
+.gridCommandRow
+{	Background-Color: #000040;
+	Font-Weight: bold;
+	Font-Size: x-large;
+	Color: #E0E0E0;
+	Height: 50px;
+	Vertical-Align: Middle
+}
+.bordertop
+{
+	BORDER-TOP: #74acd1 1px solid;
+}
+.wizardCellPadding
+{
+    padding-left:30px;
+    padding-bottom:30px;   
+}
+
+h1{ display: inline; font-size: 14px; }
+
+td.bannerbg{ background: #2E5CB8; }
+
+.sectiontitle {
+	color: #FFFFFF;
+	padding: 5px;
+	border-bottom: 3px solid #FFFFFF;
+	font-family: Tahoma, Verdana, Helvetica-Narrow, Helvetica, sans-serif;
+	background-color: #336699 
+}
+
+td.toolbar{
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	background: #F4A460  /*999999*/;
+	font: 11px Tahoma, Verdana, Helvetica-Narrow, Helvetica, sans-serif;
+}
+/* Adding some style elements for the public Home page - Mangal */
+#columnleft
+{
+    float: left;
+    width: 300px;
+    /*position: relative; */
+}
+
+#columnright
+{
+    margin-left: 245px;
+  /*  position:relative; */
+}
+
+.leftblock
+{
+    border: 1px solid #DBDB79;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+    vertical-align: top;
+}
+
+ .rightblock
+{
+    border: 1px solid #DBDB79;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+    /*position: relative;*/
+    width:446px;
+    color: #483D8B
+}
+.dashedline
+{
+    border-bottom: 1px dashed #DBCE6A;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    clear:right;
+}
+.DataWebControlStyle
+{
+    font-size: 90%;
+}
+
+.HeaderStyle
+{
+    background-color: Navy;
+    color: White;
+    font-weight: bold;
+}
+
+.FooterStyle
+{
+    background-color: #a33;
+    color: White;
+    text-align: right;
+}
+
+.AlternatingRowStyle
+{
+    background-color: InfoBackground;
+    color: Navy;
+}
+
+.RowStyle
+{
+    color: Navy;
+}
+
+.SelectedRowStyle
+{
+    background-color:  Gray;
+}

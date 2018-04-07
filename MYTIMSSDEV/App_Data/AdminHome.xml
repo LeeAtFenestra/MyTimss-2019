@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<AdminHome Text="User Administration Home Page">
+  <OverView Text="This section allows administration of user's personal information.
+    Please use the left side bar to navigate the administrative options." />
+</AdminHome>
+

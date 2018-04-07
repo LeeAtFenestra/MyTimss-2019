@@ -1,0 +1,304 @@
+﻿<%@ Master Language="VB" CodeFile="Site.master.vb" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <META content="no-cache" http-equiv="Pragma">
+    <LINK rel="Stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/") %>common/style2005.css" />
+    <SCRIPT language = "javascript" src="<%= Page.ResolveClientUrl("~/") %>common/util/openwindow.js"></SCRIPT>
+    <SCRIPT language = "javascript" src="<%= Page.ResolveClientUrl("~/") %>common/util/hoverobject.js"></SCRIPT>
+    <SCRIPT language = "javascript" src="<%= Page.ResolveClientUrl("~/") %>common/fncVerifySave.js"></SCRIPT>
+    <script language = "javascript" src="<%= Page.ResolveClientUrl("~/") %>common/util/popup.js"></script>
+    <script language = "javascript" src="<%= Page.ResolveClientUrl("~/") %>common/util/sorttable.js"></script>
+    <script language = "javascript" src="<%= Page.ResolveClientUrl("~/") %>common/SCSGlobal.js"></script>
+    <STYLE type="text/css">
+        body 
+        {
+            margin:0;padding:0
+        }
+        
+        .style1 {
+	        COLOR: #9900cc
+        }
+        #showMe {
+	        DISPLAY: none
+        }
+        TABLE {
+	        BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+        }
+    </STYLE>
+      <STYLE>.TabLavendar {
+	BACKGROUND-COLOR: #cccff0
+}
+.TabLavendarOn {
+	BORDER-TOP: #9cb0e2 2px solid; BORDER-RIGHT: #9cb0e2 2px solid; BORDER-BOTTOM: #9cb0e2 2px solid; BORDER-LEFT: #9cb0e2 2px solid
+}
+.TabEQCB {
+	BACKGROUND-COLOR: #ffa07a
+}
+.TabEQCBOn {
+	BORDER-TOP: #ffa07a 2px solid; BORDER-RIGHT: #ffa07a 2px solid; BORDER-BOTTOM: #ffa07a 2px solid; BORDER-LEFT: #ffa07a 2px solid
+}
+.TabDarkYellow {
+	BACKGROUND-COLOR: #e6e600
+}
+.TabDarkYellowOn {
+	BORDER-TOP: #e6e600 2px solid; BORDER-RIGHT: #e6e600 2px solid; BORDER-BOTTOM: #e6e600 2px solid; BORDER-LEFT: #e6e600 2px solid
+}
+.TabDarkRed {
+	BACKGROUND-COLOR: #cc00cc
+}
+.TabDarkRedOn {
+	BORDER-TOP: #cc00cc 2px solid; BORDER-RIGHT: #cc00cc 2px solid; BORDER-BOTTOM: #cc00cc 2px solid; BORDER-LEFT: #cc00cc 2px solid
+}
+.TabPopsicleBlue {
+	BACKGROUND-COLOR: #2cc8fc
+}
+.TabPopsicleBlueOn {
+	BORDER-TOP: #2cc8fc 2px solid; BORDER-RIGHT: #2cc8fc 2px solid; BORDER-BOTTOM: #2cc8fc 2px solid; BORDER-LEFT: #2cc8fc 2px solid
+}
+.TabOrange {
+	BACKGROUND-COLOR: #f2b91c
+}
+.TabOrangeOn {
+	BORDER-TOP: #f2b91c 2px solid; BORDER-RIGHT: #f2b91c 2px solid; BORDER-BOTTOM: #f2b91c 2px solid; BORDER-LEFT: #f2b91c 2px solid
+}
+.TabGreen {
+	BACKGROUND-COLOR: #00cc00
+}
+.TabGreenOn {
+	BORDER-TOP: #00cc00 2px solid; BORDER-RIGHT: #00cc00 2px solid; BORDER-BOTTOM: #00cc00 2px solid; BORDER-LEFT: #00cc00 2px solid
+}
+.TabGray {
+	BACKGROUND-COLOR: #c0c0c0
+}
+.TabGrayOn {
+	BORDER-TOP: #c0c0c0 2px solid; BORDER-RIGHT: #c0c0c0 2px solid; BORDER-BOTTOM: #c0c0c0 2px solid; BORDER-LEFT: #c0c0c0 2px solid
+}
+.TabPurple {
+	BACKGROUND-COLOR: #9e7bff
+}
+.TabPurpleOn {
+	BORDER-TOP: #9e7bff 2px solid; BORDER-RIGHT: #9e7bff 2px solid; BORDER-BOTTOM: #9e7bff 2px solid; BORDER-LEFT: #9e7bff 2px solid
+}
+</STYLE>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+     <script language="javascript" type="text/javascript">
+        function warning() {
+            var i = "This page will go live in January, 2018.";
+            alert(i);
+        }
+</script>
+<body margin="0" id="mBody" runat="server">
+    <form id="frm" runat="server" autocomplete="off">
+        
+    <TABLE class=siteborder cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=57 width=4><IMG border=0 src="~/common/images/shim.gif" width=4 height=4 runat="server"></TD>
+    <TD height=57 runat="server">
+
+      <table border="0" cellpadding="0" cellspacing="0" style="background-color:#123F75;width:100%">
+        <tr>
+            <td>
+                <table border="0" cellpadding="0" cellspacing="0" style="background-color:#123F75;width:100%">
+                    <tr>
+                        <td>
+                            <a href="~/default.aspx" alt="Return to the MyTIMSS" runat="server"><asp:image id="IMG1" border="0" alt="Return to the MyTIMSS" imageurl="~/common/images/timssusalogo.png" runat="server" style=" margin-left:15px" visible="False" /><asp:image id="IMG3" border="0" alt="Return to the MyTIMSS" imageurl="~/common/images/ICILSLogo.png" runat="server" style="margin-left: 15px; width: 131px;" visible="False" /></a>
+                        </td>
+                        <td style="text-align:center; color:#FFFFFF;font-weight:bold; font-size:25px">
+                        <!--
+                        Trends in International Mathematics and 
+                        <br />
+                        Science Study
+                        -->
+                        </td>
+                        <td style="text-align:right">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rowColor1" runat="server" style="width:180px; text-align:center;">
+                &nbsp;
+                                       <asp:LoginView ID="LoginView3" runat="server" EnableViewState="false">
+                            <AnonymousTemplate>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                
+                                <span>Welcome: <a href="javascript:openAWindow('<%= Page.ResolveClientUrl("~/") %>Profile.aspx', 'mywin', 300, 300,1)" style="color:#FFFFFF; font-weight: normal; text-decoration:underline;"><asp:LoginName ID="HeadLoginName" runat="server" /></a></span>
+                                <br />
+                                <span><a href="javascript:openAWindow('<%= Page.ResolveClientUrl("~/") %>ChangePassword.aspx', 'mywin', 450, 450,1)" style="color:#FFFFFF; font-weight: normal; text-decoration:underline;">Change my Password</a></span>
+                                <br />
+                                <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Logout" LogoutPageUrl="~/" style="color:#FFFFFF; font-weight: normal; text-decoration:underline;" onloggedout="HeadLoginStatus_LoggedOut"/>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+            </td>
+        </tr>
+        <tr>
+        <td id="rowColor2" runat="server"  style="height:3px" colspan="2">
+       
+        </td>
+        </tr>
+      </table>
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+            <TBODY>
+                <tr class="choicesborder">
+                    <td>
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <TBODY>
+                                <TR>
+                                    <TD height=28 noWrap>
+                                        <FONT size=2>&nbsp;<FONT color=#ffffff>
+                                        <b><asp:Label ID="lblMyschool" runat="server" Text="School Control System"></asp:Label></b>
+                                        <asp:LoginView ID="LoginView1" runat="server" EnableViewState="false">
+                                            <AnonymousTemplate>
+                                            
+                                                <asp:ContentPlaceHolder id="cphTopNavigationAnonymous" runat="server">
+                                                    &nbsp;
+                                                </asp:ContentPlaceHolder>
+
+                                            </AnonymousTemplate>
+                                            <LoggedInTemplate>
+                                                
+                                                <span runat="server" id="spanscs" visible="false">
+                                                    |
+                                                    <a title="TIMSS School Control System" id="MySchoolTitle"  class='menu' href="<%= Page.ResolveClientUrl("~/TIMSSSCS2015/default.aspx") %>">School Control System</a>
+                                                </span>
+                                                <span runat="server" id="spanefile" visible="false">
+                                                    |
+                                                    <a title="TIMSS E-File" class='menu' href="<%= Page.ResolveClientUrl("~/TIMSSEFILE2015/default.aspx") %>">E-File</a>
+                                                </span>
+
+                                                |
+                                                
+                                                <span runat="server" id="spanchangeschool" visible="false">
+                                                <a href="javascript:openAWindow('<%= Page.ResolveClientUrl("~/") %>SelectSchool.aspx', 'SelectSchool', 500, 500,1)" class='menu'>Change School:</a>
+                                                </span>
+
+                                                <b><%=TimssBll.SchoolBannerText()%></b>
+                                                <asp:ContentPlaceHolder id="cphTopNavigationLoggedIn" runat="server">
+                                                    
+                                                </asp:ContentPlaceHolder>
+                                            </LoggedInTemplate>
+                                        </asp:LoginView>
+
+                                        <asp:LoginView ID="LoginView2" runat="server" EnableViewState="false">
+                            <RoleGroups>
+                                <asp:RoleGroup Roles="admin">
+                                    <ContentTemplate>
+                                        | <a href="<%= Page.ResolveClientUrl("~/") %>admin/default.aspx" class='menu'>Admin Section</a>
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                            </RoleGroups>
+                        </asp:LoginView>
+                                    </TD>
+                                </TR>
+                            </TBODY>
+                        </table>
+                    </td>
+                </tr>
+            </TBODY>
+        </table>
+                  
+                  </TD>
+                  </TR></TBODY></TABLE>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+    <tr>
+        <td valign="top">
+                                <asp:LoginView ID="LoginView4" runat="server" EnableViewState="false">
+                            <LoggedInTemplate>
+                            
+                                <table border="0" cellpadding="15" cellspacing="0" bgcolor="#E6E6E6" style="width:200px">
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="default.aspx" title="Link to Home Page">Home</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" nowrap style="background-color:#BDBDBD;color:#008CB3;"><b>What You Need To Do</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>ProvideSchoolInformation.aspx" title="Provide School Information">Provide School Information</a></td>
+                                    </tr>
+                                    <% If Me.TimssBll.iseTIMSS() Then%>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>SubmitClassList.aspx" title="Link to Submit Class List">Submit Class List</a></td>
+                                    </tr>
+                                    <%end if%>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>SubmitStudentList.aspx" title="Link to Submit Student List">Submit Student List</a></td>
+                                    </tr>
+                                    <% If Me.TimssBll.isICILS() Then%>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>SubmitTeacherList.aspx" title="Link to Submit Teacher List">Submit Teacher List</a></td>
+                                    </tr>
+                                    <%end if%>
+                                    <tr>
+                                         <% if DateTime.Now > "1/1/2017" Then  %>
+                                       <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>PrepareForAssessment.aspx" title="Link to Prepare for Assessment">Prepare for Assessment</a></td> 
+                                      <% else %>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="" title="Link to Prepare for Assessment" onclick="warning();">Prepare for Assessment</a></td>
+                                          <% End If  %>
+                                    </tr> 
+                                    <% If Me.TimssBll.HasGradeId12() Then%>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>EncourageParticipation.aspx" title="Link to Encourage Participation">Encourage Participation</a></td>
+                                    </tr>
+                                    <%end if%>
+                                    <!--
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>AssessmentDay.aspx" title="Link to Assessment Day">Assessment Day</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>AfterTheAssessment.aspx" title="Link to After the Assessment">After the Assessment</a></td>
+                                    </tr>
+                                    -->
+                                    <tr>
+                                        <td valign="top" nowrap style="background-color:#BDBDBD;color:#008CB3;"><b>What You Need To Know</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>Documents.aspx" title="Link to Documents">Documents</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>ImportantWebsites.aspx" title="Link to Important Websites">Important Websites</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= Page.ResolveClientUrl("~/") %>ContactUs.aspx" title="Link to Contact Us">Contact Us</a></td>
+                                    </tr>
+                                    
+                                </table>
+                                
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+        </td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        
+        <td valign="top" style="width:100%">
+<asp:ContentPlaceHolder id="cphBody" runat="server">
+        &nbsp;
+        </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+</table>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <div style="text-align:center">
+                       <div id="footerTIMSS" runat="server" visible="False">
+                            If you have any <b>TIMSS</b> questions, please email <a href="mailto:TIMSS@westat.com">TIMSS@westat.com</a>. You can also contact the help desk by phone between 9:00 am and 5:00 pm Eastern Time, Monday–Friday, at 855-445-5604.
+                        </div> 
+
+                         <div id="footerICILS" runat="server" visible="False">
+                            If you have any <b>ICILS</b> questions, please email <a href="mailto:ICILS@westat.com">ICILS@westat.com</a>. You can also contact the help desk by phone between 9:00 am and 5:00 pm Eastern Time, Monday–Friday, at 855-445-5604.
+                         </div>
+                </div>
+
+
+    </form>
+</body>
+</html>

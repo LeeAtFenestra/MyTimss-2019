@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<UserHome Text="User Administration Home Page">
+  <OverView Text="This section allows a user to view and update personal information such as password and profile." />
+  <Pages>
+    <Page Text="Update Profile">
+      <Feature Text="Edit your profile here.  Your Profile contains personal information such as first and last name." />
+    </Page>
+    <Page Text="Change My Password">
+      <Feature Text="On this page you can change your password." />
+    </Page>
+  </Pages>
+  <Links>
+    <Link Text="There are currently no links"
+          URL=""/>
+  </Links>
+</UserHome>
+

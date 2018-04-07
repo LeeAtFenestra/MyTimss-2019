@@ -1,0 +1,4 @@
+grant execute on aspnet_Applications_CreateApplication to TIMSSSCS2015_app
+grant execute on InsertSchoolPersonnel to TIMSSSCS2015_app
+grant execute on InsertDistrictPersonnel to TIMSSSCS2015_app
+

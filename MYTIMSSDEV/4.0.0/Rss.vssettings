@@ -1,0 +1,13 @@
+<UserSettings>
+	<ApplicationIdentity version="8.0"/>
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment">
+			<ToolsOptionsSubCategory name="Startup" RegisteredName="Startup" PackageName="Visual Studio Environment Package">
+				<PropertyValue name="OnStartUp">5</PropertyValue>
+				<PropertyValue name="StartPageRefreshDownloadedContent">true</PropertyValue>
+				<PropertyValue name="StartPageRSSUrl">http://thenawg.blogspot.com/atom.xml?alt=rss</PropertyValue>
+				<PropertyValue name="StartPageRefreshInterval">60</PropertyValue>
+			</ToolsOptionsSubCategory>
+		</ToolsOptionsCategory>
+	</ToolsOptions>
+</UserSettings>
